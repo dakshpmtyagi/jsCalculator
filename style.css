@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.myCalculatorMain {
+	width: 550px;
+	border-radius: 6px;
+	padding: 10px;
+	margin-top: 18rem !important;
+	margin: 0px auto;
+}
+
+#myCalculationOutput {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 10px;
+	height: 55px;
+	font-size: 25px;
+	text-align: right;
+	font-weight: bold;
+	background-color: #fff;
+	width: 100%;
+	box-shadow: 0 0 5px  #fff;
+}
+
+.myCalculatorButtonType1 {
+	background-color: #ddd;
+	border: none;
+	border-radius: 2px;
+	width: 125px;
+	margin-right: 4px;
+	padding: 5px 0px;
+}
+
+.myCalculatorButtonType2 {
+	background-color: #bbb;
+	border: none;
+	border-radius: 2px;
+	width: 125px;
+	padding: 5px 0px;
+}
+
+/*media Queries*/
+
+@media screen and (max-width:450px) {
+	.myCalculatorMain {
+		width: 350px;
+		margin-top: 18rem !important;
+	}
+
+	.myCalculatorButtonType1 {
+		width: 75px;
+	}
+
+	.myCalculatorButtonType2 {
+		width: 75px;
+	}
+}
+
+@media screen and (max-width:750px) {
+	.myCalculatorMain {
+		width: 350px;
+		margin-top: 4rem !important;
+	}
+
+	.myCalculatorButtonType1 {
+		width: 75px;
+	}
+
+	.myCalculatorButtonType2 {
+		width: 75px;
+	}
+}
+
+@media screen and (min-width:1024px) {
+	.myCalculatorMain {
+		margin-top: 14rem !important;
+	}
+}
+
+/*...*/
